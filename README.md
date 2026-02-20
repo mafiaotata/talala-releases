@@ -28,9 +28,11 @@
 
 1. Download `Talala-v1.0.8-win64.zip` (~5 MB)
 2. Extract to any folder
-3. Run `Talala.exe` as Administrator
-4. **Setup wizard**: choose install location → packages auto-download
+3. Run `Talala.exe` as **Administrator**
+4. **First time only**: Setup wizard guides you — choose install location, packages auto-download (~5 min)
 5. Click **Start All** — done!
+
+> After the first-time setup, Talala is fully portable — move the folder anywhere and run directly. No re-installation needed.
 
 ---
 
@@ -52,6 +54,8 @@
 | **System Tray** | Minimize to tray on close |
 | **Setup Wizard** | First-run wizard to choose install location |
 | **Auto Update Check** | Get notified of new versions |
+| **Delete Confirmation** | Choose to delete files, database, or both |
+| **Input Validation** | All inputs sanitized against injection |
 
 ---
 
@@ -64,7 +68,8 @@
 ## Requirements
 
 - Windows 10/11 (64-bit)
-- No installation needed — fully portable
+- Run as Administrator (first time for setup, and for hosts file management)
+- Internet connection for initial package download
 
 ---
 
