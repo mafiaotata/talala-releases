@@ -22,11 +22,11 @@
 
 ## Download
 
-> **[Download Talala v1.0.3 (Windows 64-bit)](https://github.com/mafiaotata/talala-releases/releases/latest)**
+> **[Download Talala v1.0.4 (Windows 64-bit)](https://github.com/mafiaotata/talala-releases/releases/latest)**
 
 ### Quick Start
 
-1. Download `Talala-v1.0.3-win64.zip`
+1. Download `Talala-v1.0.4-win64.zip`
 2. Extract to any folder
 3. Run `Talala.exe` (runs as Administrator)
 4. **First launch**: Setup wizard guides you to choose install location
