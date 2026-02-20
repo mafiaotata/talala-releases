@@ -22,14 +22,15 @@
 
 ## Download
 
-> **[Download Talala v1.0.2 (Windows 64-bit)](https://github.com/mafiaotata/talala-releases/releases/latest)**
+> **[Download Talala v1.0.3 (Windows 64-bit)](https://github.com/mafiaotata/talala-releases/releases/latest)**
 
 ### Quick Start
 
-1. Download `Talala-v1.0.2-win64.zip`
-2. Extract to any folder (e.g. `C:\talala`)
+1. Download `Talala-v1.0.3-win64.zip`
+2. Extract to any folder
 3. Run `Talala.exe` (runs as Administrator)
-4. Click **Start All**
+4. **First launch**: Setup wizard guides you to choose install location
+5. Click **Start All** to begin developing!
 
 ---
 
@@ -49,6 +50,7 @@
 | **Auto-start Services** | Start services automatically on launch |
 | **Run on Windows Start** | Launch Talala when Windows boots |
 | **System Tray** | Minimize to tray on close |
+| **Setup Wizard** | First-run wizard to choose install location |
 | **Auto Update Check** | Get notified of new versions |
 
 ---
