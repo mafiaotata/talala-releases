@@ -1,87 +1,68 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mafiaotata/talala-releases/main/assets/talala-icon.png" width="120" alt="Talala">
-</p>
+# Talala
 
-<h1 align="center">Talala</h1>
+A portable local web development environment for Windows — simple, fast, and powerful.
 
-<p align="center">
-  <strong>Your portable dev stack, ready in one click.</strong>
-</p>
-
-<p align="center">
-  A portable local web development environment for Windows — simple, fast, and powerful.
-</p>
-
-<p align="center">
-  <a href="https://github.com/mafiaotata/talala-releases/releases/latest"><img src="https://img.shields.io/github/v/release/mafiaotata/talala-releases?style=for-the-badge&color=7c3aed" alt="Latest Release"></a>
-  <a href="https://github.com/mafiaotata/talala-releases/releases/latest"><img src="https://img.shields.io/github/downloads/mafiaotata/talala-releases/total?style=for-the-badge&color=7c3aed" alt="Downloads"></a>
-  <a href="https://buymeacoffee.com/mafiaotata"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%E2%98%95-orange?style=for-the-badge" alt="Buy Me a Coffee"></a>
-</p>
-
----
+> Install once, then move anywhere. Talala is fully portable after first-time setup.
 
 ## Download
 
-> **[Download Talala v1.0.8 (Windows 64-bit)](https://github.com/mafiaotata/talala-releases/releases/latest)**
+**[Download Talala v1.0.9](https://github.com/mafiaotata/talala-releases/releases/latest)** (4.9 MB)
 
-### Quick Start
+## Quick Start
 
-1. Download `Talala-v1.0.8-win64.zip` (~5 MB)
-2. Extract to any folder
-3. Run `Talala.exe` as **Administrator**
-4. **First time only**: Setup wizard guides you — choose install location, packages auto-download (~5 min)
-5. Click **Start All** — done!
+1. Download and extract the ZIP
+2. Run `Talala.exe` as **Administrator**
+3. **First time only**: Setup wizard guides you — choose location, packages auto-download (~5 min)
+4. Click **Start All** to launch services
+5. Open `http://localhost` — you're ready!
 
-> After the first-time setup, Talala is fully portable — move the folder anywhere and run directly. No re-installation needed.
+After first-time setup, Talala is fully portable — move the folder anywhere and run directly.
 
----
+## What's Included
 
-## Features
-
-| Feature | Description |
+| Package | Description |
 |---------|-------------|
-| **One-click Start/Stop** | Apache + MariaDB with a single click |
-| **PHP Version Switching** | Switch between PHP 7.4, 8.1, 8.2, 8.3 |
-| **Package Manager** | Install Composer, Node.js, Git, and more |
-| **Project Templates** | Laravel, WordPress, PrestaShop — one click setup |
-| **Auto Virtual Hosts** | `{name}.test` mapped automatically |
-| **SSL with mkcert** | Auto-install & per-project SSL toggle |
-| **Dark / Light Theme** | Switch between themes |
-| **Terminal Integration** | Cmder with all tools pre-configured in PATH |
-| **Configurable Logging** | Enable/disable logs per service |
-| **Auto-start Services** | Start services automatically on launch |
-| **Run on Windows Start** | Launch Talala when Windows boots |
-| **System Tray** | Minimize to tray on close |
-| **Setup Wizard** | First-run wizard to choose install location |
-| **Auto Update Check** | Get notified of new versions |
-| **Delete Confirmation** | Choose to delete files, database, or both |
-| **Input Validation** | All inputs sanitized against injection |
+| Apache 2.4 | Web server with auto Virtual Hosts |
+| MariaDB | MySQL-compatible database |
+| PHP 7.4 / 8.1 / 8.2 / 8.3 / 8.4 | Multiple PHP versions, switch instantly |
+| phpMyAdmin | Web-based database manager |
+| Composer | PHP dependency manager |
+| WP-CLI | WordPress command-line tool |
+| Node.js | JavaScript runtime |
+| Git | Version control |
+| Cmder | Portable terminal emulator |
 
----
+### Optional Packages (install from Packages page)
 
-## Screenshots
+| Package | Description |
+|---------|-------------|
+| Nginx | Alternative web server (conflict warning with Apache) |
+| Redis | In-memory data store |
+| PostgreSQL | Powerful relational database (runs alongside MariaDB) |
+| Mailpit | Email testing tool with web UI |
+| Meilisearch | Full-text search engine |
+| Python | Scripting and automation |
+| mkcert | Local SSL certificates |
 
-> *Coming soon*
+## v1.0.9 Highlights
 
----
+- **Every package works after install** — PHP gets php.ini, tools get .bat wrappers, PostgreSQL runs initdb
+- **Dashboard shows all services** — start/stop nginx, redis, mailpit, meilisearch, postgresql from Dashboard
+- **Conflict warnings** — Apache vs Nginx warning in Packages UI
+- **Terminal** — pre-configured with PHP, Composer, WP-CLI, Python, Node.js, Git in PATH
 
 ## Requirements
 
 - Windows 10/11 (64-bit)
-- Run as Administrator (first time for setup, and for hosts file management)
-- Internet connection for initial package download
-
----
+- Run as Administrator (for hosts file + services)
 
 ## Support
 
-If you find Talala useful, consider supporting its development!
+If you find Talala useful:
 
-- [Buy Me a Coffee](https://buymeacoffee.com/mafiaotata)
 - [GitHub Sponsors](https://github.com/sponsors/mafiaotata)
-
----
+- [Buy Me a Coffee](https://buymeacoffee.com/mafiaotata)
 
 ## License
 
-Talala is free to use. All rights reserved.
+[MIT License](LICENSE) - Copyright (c) 2025 mafiaotata
