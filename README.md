@@ -6,7 +6,7 @@ A portable local web development environment for Windows — simple, fast, and p
 
 ## Download
 
-**[Download Talala v1.0.9](https://github.com/mafiaotata/talala-releases/releases/latest)** (4.9 MB)
+**[Download Talala v1.1.0](https://github.com/mafiaotata/talala-releases/releases/latest)** (5 MB)
 
 ## Quick Start
 
@@ -44,12 +44,14 @@ After first-time setup, Talala is fully portable — move the folder anywhere an
 | Python | Scripting and automation |
 | mkcert | Local SSL certificates |
 
-## v1.0.9 Highlights
+## v1.1.0 Highlights
 
-- **Every package works after install** — PHP gets php.ini, tools get .bat wrappers, PostgreSQL runs initdb
-- **Dashboard shows all services** — start/stop nginx, redis, mailpit, meilisearch, postgresql from Dashboard
-- **Conflict warnings** — Apache vs Nginx warning in Packages UI
-- **Terminal** — pre-configured with PHP, Composer, WP-CLI, Python, Node.js, Git in PATH
+- **Python Project Support** — Auto-detect and manage FastAPI, Flask, Django projects from Dashboard
+- **PHP Settings UI** — Configure php.ini directly from Settings → PHP tab (14 values)
+- **Active Ports Panel** — See all active ports on Dashboard + kill stale ports
+- **Project Type Badges** — PHP/Python/FastAPI/Flask/Django badges on Projects page
+- **Security Hardening** — 9 security issues reviewed and fixed by Claude Security
+- **Bug Fixes** — Ghost process recovery, smart port allocation, log collision fix
 
 ## Requirements
 
