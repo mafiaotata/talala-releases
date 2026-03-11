@@ -46,12 +46,27 @@ After first-time setup, Talala is fully portable — move the folder anywhere an
 
 ## v1.1.0 Highlights
 
+### New Features
+- **Non-blocking service operations** — GUI no longer freezes when starting/stopping services
 - **Python Project Support** — Auto-detect and manage FastAPI, Flask, Django projects from Dashboard
 - **PHP Settings UI** — Configure php.ini directly from Settings → PHP tab (14 values)
 - **Active Ports Panel** — See all active ports on Dashboard + kill stale ports
+- **PHP 8.4 support** — Added to version switcher
+- **Cmder** — Now included as a starter package
 - **Project Type Badges** — PHP/Python/FastAPI/Flask/Django badges on Projects page
-- **Security Hardening** — 9 security issues reviewed and fixed by Claude Security
-- **Bug Fixes** — Ghost process recovery, smart port allocation, log collision fix
+
+### Bug Fixes
+- Fix tray icon always showing red (service name case mismatch)
+- Fix GUI freeze on start/stop (async service operations)
+- Fix StopAll() silently swallowing errors
+- Fix event listener memory leaks in all pages
+- Fix dark mode error/warning banners
+- Fix Console log level detection (error/warn highlighting)
+
+### Security
+- php.ini injection validation
+- KillPort restricted to Python project port range
+- SaveSettings data preservation
 
 ## Requirements
 
